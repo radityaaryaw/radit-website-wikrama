@@ -60,6 +60,7 @@ a {
     width: 300px;
     background-color: rgba(16, 47, 80, .9);
     transition: .3s;
+    z-index: 9999;
 }
 .sidebar ul li a {
     color: cornsilk;
@@ -237,30 +238,21 @@ ul li {
     padding: 24px 60px;
     color: white;
   }
-  
-  .footer-grid {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
-    grid-gap: 10px;
-    margin: 0 auto;
-    max-width: 100%;
-    justify-items: center;
-  }
+
 .footer-grid h4 {
     font-size: 19px;
 }
 .footer-1 a {
-    color: #ddd;
+    color: rgb(122, 166, 253);
 }
 .footer-1 a:hover {
-    color: rgb(255, 201, 65);
+    color: rgb(151, 151, 151);
 }
 .footer-3 a {
-    color: #ddd;
+    color: rgb(122, 166, 253);
 }
 .footer-3 a:hover {
-    color: rgb(255, 201, 65);
+    color: rgb(151, 151, 151);
     transition: 0.3s;
 }
 .akhir {
@@ -273,6 +265,9 @@ ul li {
 }
 .footer-2 p {
     color: #ddd;
+}
+.title5 {
+    color: #f0f0f0;
 }
 
 @media (max-width: 768px) {
@@ -292,9 +287,6 @@ ul li {
     .footer1 {
         width: 100%;
     }
-    .footer-grid {
-        margin-left: 0%;
-        display: grid;
-    }
+    
     
 }  
